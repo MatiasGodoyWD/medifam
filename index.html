@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Medifam medicina privada es una prepaga que ofrece los mejores planes de salud con la mas alta calidad y servicio de argentina"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <link rel="stylesheet" href="./assets/variables.css" />
+    <script
+      src="https://kit.fontawesome.com/1c6a38c3f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Medifam</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Inicio Header(Nav y Hero) -->
+      <header class="header flex-column">
+        <!-- Filler, para que tome el lugar del nav cuando scrolleo -->
+        <div class="filler"></div>
+        <!-- Inicio Navbar -->
+        <nav class="navbar flex-between">
+          <!-- Checkbox y menu barras -->
+          <input type="checkbox" name="bars" id="navbar__checkbox" />
+          <label class="navbar__bars" for="navbar__checkbox"
+            ><i class="fas fa-bars"></i><i class="fas fa-times"></i
+          ></label>
+          <!-- Logo -->
+          <img
+            class="navbar__logo"
+            src="./assets/img/medifam-logo-small.png"
+            alt="Medifam Obra Social"
+          />
+          <!-- Icono de user -->
+          <i class="fas fa-user"></i>
+          <!-- Inicio de menu -->
+          <ul class="navbar__menu flex-column">
+            <li class="menu__items">
+              <a class="menu__links" href="#">¿Quiénes Somos?</a>
+            </li>
+            <li class="menu__items">
+              <a class="menu__links" href="#"> Planes</a>
+            </li>
+            <li class="menu__items">
+              <a class="menu__links" href="#">Servicios</a>
+            </li>
+            <li class="menu__items">
+              <a class="menu__links" href="#">Telefonos</a>
+            </li>
+            <li class="menu__items">
+              <a class="menu__links" href="#"> Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hero flex-column">
+          <div class="hero__img"></div>
+          <div class="hero-title__container flex-center flex-column">
+            <h1 class="hero__title">Tu salud es nuestra prioridad</h1>
+            <p class="hero__title">
+              En el marco actual de pandemia, sabemos lo importante que es para
+              vos la salud de tu familia. Por eso, en Medifam nos encargamos de
+              que puedas estar tranquilo y disfrutes con tu familia sin
+              preocupaciones
+            </p>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

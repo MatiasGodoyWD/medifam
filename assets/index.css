@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*--------------------- HEADER -------------------*/
+
+.header {
+  width: 100%;
+
+  position: relative;
+}
+
+/*--------------NAVBAR-------------*/
+
+.navbar {
+  background-color: var(--primary-white);
+  width: 100%;
+  padding: 0 1rem;
+  height: 7vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.filler {
+  height: 7vh;
+}
+
+.navbar__logo {
+  max-width: 8rem;
+  margin-left: -1.2rem;
+}
+
+.fa-bars,
+.fa-user,
+.fa-times {
+  font-size: 1.3rem;
+  color: var(--primary-blue);
+}
+
+.fa-times {
+  font-size: 1.65rem;
+}
+
+.navbar__menu {
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--primary-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 7vh;
+  width: 60%;
+  height: 100vh;
+  transform: translateX(-200%);
+  transition: 0.6s transform ease-out;
+}
+
+.menu__items {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 1.3rem 0rem;
+  border-bottom: 0.0001rem solid rgba(128, 128, 128, 0.171);
+}
+
+.menu__items:nth-child(5) {
+  border-bottom: 0rem solid rgba(128, 128, 128, 0);
+}
+
+.menu__links {
+  text-decoration: none;
+  color: var(--tertiary-blue);
+}
+
+#navbar__checkbox {
+  display: none;
+}
+
+.navbar__bars {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1.7rem;
+}
+
+.navbar__bars > i:nth-child(2) {
+  display: none;
+}
+
+#navbar__checkbox:checked ~ .navbar__menu {
+  transform: translateX(0%);
+  transition: 0.2s all ease-in;
+  box-shadow: 200px 7px 0px 7px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 200px 7px 0px 7px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 200px 7px 0px 7px rgba(0, 0, 0, 0.41);
+}
+
+#navbar__checkbox:checked ~ .navbar__bars > i:nth-child(1) {
+  display: none;
+}
+
+#navbar__checkbox:checked ~ .navbar__bars > i:nth-child(2) {
+  display: block;
+}
+
+/*--------------Hero-------------*/
+
+.hero__img {
+  background-size: cover;
+  height: 20rem;
+  background-position: left;
+  width: 100%;
+  background-image: url(./img/Imagen-hero.jpg);
+}
+
+.hero-title__container {
+  width: 100%;
+}
+
+/*--------------------- ANIMATIONS-------------------*/

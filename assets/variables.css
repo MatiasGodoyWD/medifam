@@ -1,0 +1,40 @@
+:root {
+  /*Colors*/
+  --primary-blue: #1e4b77;
+  --primary-green: #53a385;
+  --primary-white: #fcfbfb;
+  --primary-black: #1f1f1f;
+  --primary-grey: #757574;
+  --secondary-blue: #366797;
+  --secondary-green: #7cb4a2;
+  --secondary-grey: #bdbdbc;
+  --tertiary-blue: #183a5c;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
