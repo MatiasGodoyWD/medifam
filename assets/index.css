@@ -58,10 +58,8 @@ html {
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active,
 .btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
+.btn-secondary:focus {
   transition: var(--button-transitions-in);
   -webkit-transition: var(--button-transitions-in);
   -moz-transition: var(--button-transitions-in);
