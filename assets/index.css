@@ -58,11 +58,18 @@ html {
 
 .btn-primary:hover,
 .btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:link,
 .btn-secondary:hover,
-.btn-secondary:focus {
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:link {
   transition: var(--button-transitions-in);
   -webkit-transition: var(--button-transitions-in);
   -moz-transition: var(--button-transitions-in);
+  text-decoration: none;
 }
 
 .btn-primary:hover,
@@ -148,7 +155,7 @@ html {
   text-decoration: none;
   color: var(--primary-blue);
   font-family: var(--primary-font);
-  font-weight: 600;
+  font-weight: 00;
   font-size: 1rem;
 }
 
