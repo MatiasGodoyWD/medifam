@@ -28,26 +28,22 @@ html {
   justify-content: flex-start;
 }
 
-button {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(128, 128, 128, 0);
-  outline: none;
-  border: 0px solid black;
-  font-family: var(--secondary-font);
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 0rem 0.9rem;
+.link {
+  text-decoration: none;
 }
 
 .btn {
-  border-radius: 0.3rem;
-  text-decoration: none;
-  outline: none;
-  text-align: center;
   height: 2.5rem;
+  padding: 0rem 0.9rem;
+  border-radius: 0.3rem;
+  outline: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--secondary-font);
 }
+
 .btn-primary {
+  border: 0px solid black;
   background-color: var(--secondary-blue);
   color: var(--primary-white);
   transition: var(--button-transitions-out);
@@ -67,13 +63,9 @@ button {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary:visited,
-.btn-primary:link,
 .btn-secondary:hover,
 .btn-secondary:focus,
-.btn-secondary:active,
-.btn-secondary:visited,
-.btn-secondary:link {
+.btn-secondary:active {
   transition: var(--button-transitions-in);
   -webkit-transition: var(--button-transitions-in);
   -moz-transition: var(--button-transitions-in);
