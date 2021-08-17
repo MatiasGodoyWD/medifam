@@ -33,11 +33,11 @@ html {
   border-radius: 0.3rem;
   text-decoration: none;
   outline: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   font-family: var(--secondary-font);
   text-align: center;
-  height: 2.2rem;
+  height: 2.5rem;
 }
 .btn-primary {
   background-color: var(--secondary-blue);
@@ -50,7 +50,7 @@ html {
 .btn-secondary {
   border: 0.1rem solid var(--primary-green);
   color: var(--primary-green);
-  margin-left: 1.4rem;
+  margin-left: 2rem;
   transition: var(--button-transitions-out);
   -webkit-transition: var(--button-transitions-out);
   -moz-transition: var(--button-transitions-out);
@@ -150,8 +150,8 @@ html {
   text-decoration: none;
   color: var(--primary-blue);
   font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 0.8rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 #navbar__checkbox {
@@ -189,12 +189,12 @@ html {
 
 .hero {
   width: 100%;
-  padding-bottom: 1.8rem;
+  padding-bottom: 3rem;
 }
 .hero__img {
   background-size: cover;
-  height: 18rem;
-  background-position-x: left;
+  height: 20rem;
+  background-position-x: right;
   background-position-y: bottom;
   width: 100%;
   background-image: url(./img/Imagen-hero.jpg);
@@ -213,7 +213,7 @@ html {
   font-family: var(--primary-font);
   font-weight: 600;
   color: var(--primary-blue);
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
 }
 
@@ -221,10 +221,10 @@ html {
   font-family: var(--primary-font);
   font-weight: 600;
   color: var(--primary-green);
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
-  line-height: 1.3rem;
-  padding-bottom: 1.8rem;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 /*--------------------------Main-----------------------------*/
