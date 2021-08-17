@@ -21,6 +21,12 @@
       src="https://kit.fontawesome.com/1c6a38c3f0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Medifam</title>
   </head>
   <body>
@@ -64,19 +70,35 @@
           </ul>
         </nav>
 
-        <div class="hero flex-column">
+        <div class="hero flex-column flex-center">
           <div class="hero__img"></div>
-          <div class="hero-title__container flex-center flex-column">
-            <h1 class="hero__title">Tu salud es nuestra prioridad</h1>
-            <p class="hero__title">
-              En el marco actual de pandemia, sabemos lo importante que es para
-              vos la salud de tu familia. Por eso, en Medifam nos encargamos de
-              que puedas estar tranquilo y disfrutes con tu familia sin
-              preocupaciones
-            </p>
+          <div class="hero-slogan__container flex-column">
+            <p class="hero__slogan-up">Tu salud.</p>
+            <p class="hero__slogan-down">Nuestra prioridad.</p>
+          </div>
+          <div class="button__container">
+            <a class="btn btn-primary flex-center" href="#plans"
+              >Encontrá tu plan ideal
+            </a>
+            <a class="btn btn-secondary flex-center" href="#about__us"
+              >Conocenos</a
+            >
           </div>
         </div>
       </header>
+      <main class="flex-column flex-center">
+        <div class="about__us flex-column flex-center" id="about__us">
+          <div class="about__us-description">
+            <h1 class="description__title">Somos Medifam</h1>
+            <p class="description__content">
+              Somos una empresa de medicina prepaga emergente que surgió de la
+              necesidad de cuidar a tu familia en estos tiempos de pandemia
+              donde el acceso a la salud y mantenerte protegido a vos y a tu
+              familia es lo mas importante.
+            </p>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>

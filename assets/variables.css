@@ -7,8 +7,13 @@
   --primary-grey: #757574;
   --secondary-blue: #366797;
   --secondary-green: #7cb4a2;
-  --secondary-grey: #bdbdbc;
+  --secondary-grey: #f3f3f3;
   --tertiary-blue: #183a5c;
+  --primary-font: "Titillium Web", sans-serif;
+  --secondary-font: "Arimo", sans-serif;
+  --tertiary-font: "Roboto", sans-serif;
+  --button-transitions-in: 0.2s all ease-in;
+  --button-transitions-out: 0.2s all ease-out;
 }
 
 .flex-center {
