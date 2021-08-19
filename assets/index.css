@@ -5,26 +5,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: var(--primary-white);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .main-container {
   width: 100%;
-  height: 100vh;
   overflow-x: hidden;
 }
 
 /*--------------buttons------------*/
 .button__container {
   display: flex;
-  width: 90%;
-
+  width: 95%;
+  padding-left: 1rem;
   justify-content: flex-start;
 }
 
@@ -63,24 +61,20 @@ html {
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active,
 .btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
+.btn-secondary:focus {
   transition: var(--button-transitions-in);
   -webkit-transition: var(--button-transitions-in);
   -moz-transition: var(--button-transitions-in);
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
+.btn-primary:focus {
   background-color: var(--tertiary-blue);
 }
 
 .btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
+.btn-secondary:focus {
   background-color: var(--primary-green);
   color: var(--primary-white);
 }
@@ -201,8 +195,8 @@ html {
 }
 .hero__img {
   background-size: cover;
-  height: 20rem;
-  background-position-x: right;
+  height: 23rem;
+  background-position-x: center;
   background-position-y: bottom;
   width: 100%;
   background-image: url(./img/Imagen-hero.jpg);
@@ -213,8 +207,10 @@ html {
 
 .hero-slogan__container {
   background-color: var(--primary-white);
-  width: 90%;
+  width: 95%;
   justify-content: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .hero__slogan-up {
@@ -243,6 +239,7 @@ html {
 /*---------------------About Us-------------------*/
 
 .about__us {
+  padding: 2.5rem 0rem;
   background-color: var(--secondary-grey);
   width: 100%;
 }
@@ -336,5 +333,106 @@ html {
   -webkit-transition: var(--button-transitions-in);
   -moz-transition: var(--button-transitions-in);
   */
+
+/*---------------------plans-------------------*/
+.plans {
+  width: 100%;
+  padding: 3.5rem 0rem;
+  background: rgb(54, 103, 151);
+  background: linear-gradient(
+    0deg,
+    rgba(54, 103, 151, 1) 0%,
+    rgba(30, 75, 119, 1) 61%,
+    rgba(24, 58, 92, 1) 100%
+  );
+  -webkit-box-shadow: -2.5px -19px 3px 3px var(--tertiary-blue);
+  -moz-box-shadow: -2.5px -19px 3px 3px var(--tertiary-blue);
+  box-shadow: -2.5px -19px 3px 3px var(--tertiary-blue);
+}
+
+.plans__title {
+  color: var(--primary-white);
+  text-align: center;
+  width: 50%;
+  font-size: 2.3rem;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 3rem;
+  padding-bottom: 2rem;
+}
+
+.plans__title-modifier {
+  font-weight: 700;
+  color: var(--primary-green);
+}
+
+.plans__card {
+  max-width: 85%;
+  min-width: 85%;
+  max-height: 25rem;
+  min-height: 25rem;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.plans__img__container {
+  width: 100%;
+  height: 15rem;
+}
+
+.plans__img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.plans__description {
+  width: 100%;
+  min-height: 10rem;
+  max-height: 10rem;
+  background-color: var(--primary-white);
+  border-radius: 30rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  padding-left: 0.8rem;
+  padding-top: 1.2rem;
+  font-family: var(--primary-font);
+
+  font-size: 0.9rem;
+  letter-spacing: -0.5px;
+}
+
+.plans__card__title {
+  font-weight: 600;
+  color: var(--secondary-blue);
+  padding-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.plans__card__title-modifier {
+  font-weight: 700;
+}
+
+.plans__underscore {
+  width: 3.5rem;
+  height: 0.1rem;
+  margin-left: 0.1rem;
+  background-color: var(--primary-green);
+}
+
+.plans__content {
+  width: 95%;
+  text-align: start;
+  padding-top: 1rem;
+}
+
+.plans__text {
+  width: 100%;
+  font-family: var(--tertiary-font);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--primary-black);
+}
 
 /*--------------------- ANIMATIONS-------------------*/

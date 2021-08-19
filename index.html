@@ -53,10 +53,10 @@
           <!-- Inicio de menu -->
           <ul class="navbar__menu flex-column">
             <li class="menu__items">
-              <a class="menu__links" href="#">¿Quiénes Somos?</a>
+              <a class="menu__links" href="#about__us">¿Quiénes Somos?</a>
             </li>
             <li class="menu__items">
-              <a class="menu__links" href="#"> Planes</a>
+              <a class="menu__links" href="#plans"> Planes</a>
             </li>
             <li class="menu__items">
               <a class="menu__links" href="#">Servicios</a>
@@ -70,7 +70,7 @@
           </ul>
         </nav>
 
-        <div class="hero flex-column flex-center">
+        <div class="hero flex-column ">
           <div class="hero__img"></div>
           <div class="hero-slogan__container flex-column">
             <p class="hero__slogan-up">Tu salud.</p>
@@ -87,9 +87,9 @@
         </div>
       </header>
       <main class="flex-column flex-center">
-        <section class="about__us flex-column flex-center" id="about__us">
+        <section class="about__us flex-column flex-center" id="about__us" >
           <div class="about__us-description flex-column flex-center">
-            <h1 class="description__title">Somos Medifam</h1>
+            <h1 class="description__title" >Somos Medifam</h1>
             <p class="description__content">Medicina prepaga de excelencia</p>
           </div>
           <div class="services__container flex-column flex-center">
@@ -100,13 +100,8 @@
               <p class="services__description">Emergencias 24 hs.</p>
               <span class="services__underscore"></span>
             </div>
-            <div class="services__card flex-column flex-center">
-            <div class="services__circle flex-center">
-              <i class="fas fa-notes-medical"></i>
-            </div>
-            <p class="services__description">Planes Superadores</p>
-            <span class="services__underscore"></span>
-          </div>
+
+           
           <div class="services__card flex-column flex-center">
             <div class="services__circle flex-center">
               <i class="fas fa-briefcase-medical"></i>
@@ -121,6 +116,70 @@
             <p class="services__description">Prestadores de excelencia</p>
             <span class="services__underscore"></span>
           </div>
+          <div class="services__card flex-column flex-center">
+            <div class="services__circle flex-center">
+              <i class="fas fa-notes-medical"></i>
+            </div>
+            <p class="services__description">Planes Superadores</p>
+            <span class="services__underscore"></span>
+          </div>
+        </section>
+
+
+
+        <section class="plans flex-center flex-column" id="plans">
+            <h2 class="plans__title">Nuestros <span class="plans__title-modifier">planes</span>
+              </h2>
+
+          
+          <div class="plans__card flex-center flex-column">
+            
+              <img class="plans__img" src="./assets/img/family-plan1.jpg" alt="">
+            
+            <div class="plans__description flex-column">
+              <h3 class="plans__card__title">Plan familiar <span class="plans__card__title-modifier">Premium</span></h3>
+            <div class="plans__underscore"></div>
+      <div class="plans__content">
+        <p class="plans__text">La cobertura médica por excelencia para proteger a tu familia en cualquier parte del mundo.</p>
+      </div>  
+            </div>
+          </div>
+          <div class="plans__card flex-center flex-column">
+            
+            <img class="plans__img" src="./assets/img/family-plan2.jpg" alt="">
+          
+          <div class="plans__description flex-column">
+            <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Familiar</span></h3>
+          <div class="plans__underscore"></div>
+    <div class="plans__content">
+      <p class="plans__text">La cobertura médica que te protege a vos y tu familia.</p>
+    </div> 
+          </div>
+        </div>
+        <div class="plans__card flex-center flex-column">
+            
+          <img class="plans__img" src="./assets/img/couple-plan.jpg" alt="">
+        
+        <div class="plans__description flex-column">
+          <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Pareja</span></h3>
+        <div class="plans__underscore"></div>
+  <div class="plans__content">
+    <p class="plans__text">La mejor y mas agil cobertura para vos y tu pareja.</p>
+  </div>
+         </div>
+      </div>
+      <div class="plans__card flex-center flex-column">
+            
+        <img class="plans__img" src="./assets/img/individual-plan1.jpg" alt="">
+      
+      <div class="plans__description flex-column">
+        <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Individual</span></h3>
+      <div class="plans__underscore"></div>
+<div class="plans__content">
+  <p class="plans__text">La cobertura médica accesible que te cuida de cerca y valoriza tus aportes.</p>
+</div>
+       </div>
+    </div>
         </section>
       </main>
     </div>
