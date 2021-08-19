@@ -54,6 +54,7 @@ html {
 .btn-secondary {
   border: 0.1rem solid var(--primary-green);
   color: var(--primary-green);
+  background-color: var(--primary-white);
   margin-left: 2rem;
   transition: var(--button-transitions-out);
   -webkit-transition: var(--button-transitions-out);
@@ -278,11 +279,9 @@ html {
   /* padding-top: 1rem; */
 }
 
-.fa-ambulance,
-.fa-notes-medical {
-  color: var(--primary-white);
-  font-size: 3rem;
-  padding: 3rem 2.6rem;
+.services__circle {
+  width: 9rem;
+  height: 9rem;
   background: rgb(54, 103, 151);
   background: linear-gradient(
     0deg,
@@ -291,6 +290,26 @@ html {
     rgba(24, 58, 92, 1) 100%
   );
   border-radius: 50%;
+}
+
+.fa-ambulance {
+  color: var(--primary-white);
+  font-size: 3rem;
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.fa-notes-medical,
+.fa-briefcase-medical {
+  color: var(--primary-white);
+  font-size: 3.5rem;
+}
+
+.fa-stethoscope {
+  color: var(--primary-white);
+  font-size: 3.5rem;
+  padding-top: 0.3rem;
+  padding-left: 0.2rem;
 }
 
 .services__description {
