@@ -135,8 +135,13 @@ body {
   border-bottom: 0.0001rem solid rgba(128, 128, 128, 0.171);
 }
 
-.menu__items:nth-child(5) {
+.menu__items:nth-child(4) {
   border-bottom: 0rem solid rgba(128, 128, 128, 0);
+}
+
+.menu__items-login,
+.menu__items-register {
+  display: none;
 }
 
 .menu__links {
@@ -183,9 +188,6 @@ body {
 .hero {
   width: 100%;
   /* height: 93vh; */
-  /* box-shadow: 0px -7px 13px -2px var(--secondary-grey) inset; */
-  /* -webkit-box-shadow: 0px -7px 13px -2px var(--secondary-grey) inset; */
-  /* -moz-box-shadow: 0px -7px 13px -2px var(--secondary-grey) inset; */
 }
 .hero__img {
   background-size: cover;
@@ -195,9 +197,6 @@ body {
   background-position-y: bottom;
   width: 100%;
   background-image: url(./img/Imagen-hero.jpg);
-  /* box-shadow: 0px -37px 13px -2px var(--primary-white) inset; */
-  /* -webkit-box-shadow: 0px -37px 13px -2px var(--primary-white) inset; */
-  /* -moz-box-shadow: 0px -37px 13px -2px var(--primary-white) inset; */
 }
 
 .hero-slogan__container {
@@ -207,8 +206,12 @@ body {
   justify-content: center;
   padding-left: 1rem;
   justify-content: flex-start;
-  padding-top: 1.3rem;
+  padding-top: 0.5rem;
   padding-bottom: 3rem;
+  -webkit-box-shadow: -2.5px -19px 3px 5px var(--primary-white);
+  -moz-box-shadow: -2.5px -19px 3px 5px var(--primary-white);
+  box-shadow: -1px -19px 3px 5px var(--primary-white);
+
   /* margin-top: -3rem; */
   /* padding-top: 1rem; */
 }
@@ -241,14 +244,19 @@ body {
 /*--------------------------Main-----------------------------*/
 .main {
   width: 100%;
+  padding: 1rem 0rem;
 }
 
 /*---------------------About Us-------------------*/
 
 .about__us {
-  padding: 2.5rem 0rem;
   background-color: var(--secondary-grey);
   width: 100%;
+  padding: 2.3rem 0rem;
+  height: auto;
+  -webkit-box-shadow: 1px -19px 15px 15px var(--secondary-grey);
+  -moz-box-shadow: 1px -19px 15px 15px var(--secondary-grey);
+  box-shadow: 1px -19px 51px 15px var(--secondary-grey);
 }
 
 .about__us-description {
@@ -357,7 +365,8 @@ body {
   box-shadow: -2.5px -19px 3px 3px var(--tertiary-blue);
 }
 
-.plans__title {
+.plans__title,
+.phones__title {
   color: var(--primary-white);
   text-align: center;
   width: 50%;
@@ -369,14 +378,15 @@ body {
   padding-bottom: 2rem;
 }
 
-.plans__title-modifier {
+.plans__title-modifier,
+.phones__title-modifier {
   font-weight: 700;
   color: var(--primary-green);
 }
 
 .plans__card {
-  max-width: 85%;
-  min-width: 85%;
+  max-width: 75%;
+  min-width: 75%;
   max-height: 25rem;
   min-height: 25rem;
   margin-bottom: 2rem;
@@ -406,7 +416,7 @@ body {
   padding-top: 1.2rem;
   font-family: var(--primary-font);
 
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: -0.5px;
 }
 
