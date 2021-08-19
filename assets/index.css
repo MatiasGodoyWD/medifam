@@ -195,7 +195,8 @@ body {
 }
 .hero__img {
   background-size: cover;
-  height: 23rem;
+  /* height: 23rem; */
+  height: 65vh;
   background-position-x: center;
   background-position-y: bottom;
   width: 100%;
