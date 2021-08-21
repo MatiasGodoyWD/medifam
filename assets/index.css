@@ -673,27 +673,22 @@ body {
 .fa-twitter {
   transition: var(--button-transitions-out);
   cursor: pointer;
-  outline: none;
 }
 .footer__media i:first-child:hover {
   color: #e225a9;
   transition: var(--button-transitions-in);
-  outline: none;
 }
 .fa-facebook:hover {
   color: var(--secondary-blue);
   transition: var(--button-transitions-in);
-  outline: none;
 }
 .fa-whatsapp:hover {
   color: #14a514;
   transition: var(--button-transitions-in);
-  outline: none;
 }
 .fa-twitter:hover {
   color: #1789e6;
   transition: var(--button-transitions-in);
-  outline: none;
 }
 .footer__phone {
   width: 100%;
