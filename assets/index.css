@@ -680,24 +680,28 @@ body {
   color: #e225a9;
   transition: var(--button-transitions-in);
   outline: none;
+  pointer-events: none;
 }
 .fa-facebook:hover,
 .fa-facebook:focus {
   color: var(--secondary-blue);
   transition: var(--button-transitions-in);
   outline: none;
+  pointer-events: none;
 }
 .fa-whatsapp:hover,
 .fa-whatsapp:focus {
   color: #14a514;
   transition: var(--button-transitions-in);
   outline: none;
+  pointer-events: none;
 }
 .fa-twitter:hover,
 .fa-twitter:focus {
   color: #1789e6;
   transition: var(--button-transitions-in);
   outline: none;
+  pointer-events: none;
 }
 .footer__phone {
   width: 100%;
@@ -719,4 +723,14 @@ body {
 .footer__copyright-modifier {
   color: var(--primary-green);
   font-weight: 700;
+}
+
+.fa-facebook:active,
+.fa-whatsapp:active,
+.fa-twitter:active,
+.fa-instagram:active {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  pointer-events: none;
 }
