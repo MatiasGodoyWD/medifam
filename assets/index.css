@@ -675,7 +675,7 @@ body {
   cursor: pointer;
   outline: none;
 }
-.fa-instagram:hover {
+.footer__media i:first-child:hover {
   color: #e225a9;
   transition: var(--button-transitions-in);
   outline: none;
