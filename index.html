@@ -49,8 +49,12 @@
             alt="Medifam Obra Social"
           />
           <!-- Icono de user -->
-          <i class="fas fa-user"></i>
-          <!-- Inicio de menu -->
+          <input type="checkbox" name="user" id="user__checkbox" />
+          <label class="navbar__bars" for="user__checkbox"
+            ><i class="fas fa-user"></i>
+          </label>
+
+          <!-- Inicio de menu de página -->
           <ul class="navbar__menu flex-column">
             <li class="menu__items">
               <a class="menu__links" href="#about__us">¿Quiénes Somos?</a>
@@ -64,13 +68,27 @@
               <a class="menu__links" href="#contact">Contacto</a>
             </li>
 
-            <li class="menu__items menu__items-login">
-              <a class="menu__links" href="#">Ingresar</a>
-            </li>
-            <li class="menu__items menu__items-register">
-              <a class="menu__links" href="#">Registrarse</a>
+
+          </ul>
+           <!-- Inicio de menu de página -->
+           <ul class="navbar__user flex-column">
+            
+              <div class="navbar__guest__container flex-column">
+
+                  <i class="fas fa-user-alt"></i>
+   
+                <p class="guest__p">Hola <span class="guest__p-modifier">invitado/a</span> </p>
+                <p class="guest__username">@guest2778 </p>
+              </div>
+            
+            <li class="user__menu__items flex-center ">
+              <a class="menu__links flex-center " href="#"> <i class="fas fa-sign-in-alt"></i>  <span class="user__log__text">Iniciar sesión</span>  </a>
             </li>
 
+            <li class="user__menu__items flex-center ">
+              <a class="menu__links flex-center " href="#"> <i class="fas fa-key"></i> <span class="user__log__text">  Registrarse</span>  </a>
+            </li>
+            <!--   -->
           </ul>
         </nav>
 
@@ -144,7 +162,7 @@
                 <h3 class="plans__card__title">Plan familiar <span class="plans__card__title-modifier">Premium</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
-                  <p class="plans__text">La cobertura médica por excelencia para proteger a tu familia en cualquier parte del mundo.</p>
+                  <p class="plans__text">La cobertura médica de excelencia para proteger a tu familia en cualquier parte del mundo.</p>
                 </div>  
               </div>
             </div>
@@ -156,7 +174,7 @@
                 <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Familiar</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
-                  <p class="plans__text">La cobertura médica que te protege a vos y tu familia.</p>
+                  <p class="plans__text">La cobertura médica que te protege a vos y a tu familia.</p>
                 </div> 
               </div>
             </div>
@@ -187,7 +205,7 @@
           </section>
           <section class="contact flex-column " id="contact">
             <form action="" class="contact__form flex-column flex-around">
-              <h2 class="contact__title">Contáctenos</h2>
+              <h2 class="contact__title">Contactanos</h2>
               <input type="text" class="contact__input" placeholder="Ingrese su nombre...">
               <input type="email" class="contact__input" placeholder="Ingrese su email...">
               <textarea name="" id="" cols="30" rows="10" class="contact__textarea"placeholder="Ingrese su mensaje..."></textarea>
