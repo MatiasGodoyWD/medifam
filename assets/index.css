@@ -33,6 +33,7 @@ body {
   font-size: 0.85rem;
   font-weight: 500;
   font-family: var(--secondary-font);
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -42,6 +43,7 @@ body {
   transition: var(--button-transitions-out);
   -webkit-transition: var(--button-transitions-out);
   -moz-transition: var(--button-transitions-out);
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -52,6 +54,7 @@ body {
   transition: var(--button-transitions-out);
   -webkit-transition: var(--button-transitions-out);
   -moz-transition: var(--button-transitions-out);
+  cursor: pointer;
 }
 
 .btn-primary:hover,
@@ -596,6 +599,7 @@ body {
   border-radius: 0.3rem;
   padding: 1rem 3rem;
   transition: 0.4s all ease-out;
+  cursor: pointer;
 }
 
 .contact__input::placeholder,
@@ -661,6 +665,30 @@ body {
   width: 70%;
   font-size: 2rem;
   padding-top: 1.5rem;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-whatsapp,
+.fa-twitter {
+  transition: var(--button-transitions-out);
+  cursor: pointer;
+}
+.fa-instagram:hover {
+  color: #e225a9;
+  transition: var(--button-transitions-in);
+}
+.fa-facebook:hover {
+  color: var(--secondary-blue);
+  transition: var(--button-transitions-in);
+}
+.fa-whatsapp:hover {
+  color: #14a514;
+  transition: var(--button-transitions-in);
+}
+.fa-twitter:hover {
+  color: #1789e6;
+  transition: var(--button-transitions-in);
 }
 .footer__phone {
   width: 100%;
