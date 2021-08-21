@@ -673,22 +673,31 @@ body {
 .fa-twitter {
   transition: var(--button-transitions-out);
   cursor: pointer;
+  outline: none;
 }
-.fa-instagram:hover {
+.fa-instagram:hover,
+.fa-instagram:focus {
   color: #e225a9;
   transition: var(--button-transitions-in);
+  outline: none;
 }
-.fa-facebook:hover {
+.fa-facebook:hover,
+.fa-facebook:focus {
   color: var(--secondary-blue);
   transition: var(--button-transitions-in);
+  outline: none;
 }
-.fa-whatsapp:hover {
+.fa-whatsapp:hover,
+.fa-whatsapp:focus {
   color: #14a514;
   transition: var(--button-transitions-in);
+  outline: none;
 }
-.fa-twitter:hover {
+.fa-twitter:hover,
+.fa-twitter:focus {
   color: #1789e6;
   transition: var(--button-transitions-in);
+  outline: none;
 }
 .footer__phone {
   width: 100%;
