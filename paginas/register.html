@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Medifam medicina privada es una prepaga que ofrece los mejores planes de salud con la mas alta calidad y servicio de argentina"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/index.css" />
+    <link rel="stylesheet" href="../assets/responsive.css" />
+    <link rel="stylesheet" href="../assets/variables.css" />
+    <script
+      src="https://kit.fontawesome.com/1c6a38c3f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registrate</title>
+  </head>
+  <body>
+    <div class="filler"></div>
+    <nav class="navbar">
+      <!-- Checkbox y menu barras -->
+      <input type="checkbox" name="bars" id="navbar__checkbox" />
+      <label class="navbar__bars" for="navbar__checkbox"
+        ><i class="fas fa-bars"></i><i class="fas fa-times"></i
+      ></label>
+      <!-- Logo -->
+      <a class="logo__container" href="#home">
+        <img
+          class="navbar__logo"
+          src="./assets/img/medifam-logo-small.png"
+          alt="Medifam Obra Social"
+        />
+      </a>
+
+      <!-- Icono de user -->
+      <input type="checkbox" name="user" id="user__checkbox" />
+      <label class="navbar__bars" for="user__checkbox"
+        ><i class="fas fa-user"></i>
+      </label>
+
+      <!-- Inicio de menu de página -->
+      <ul class="navbar__menu">
+        <li class="menu__items">
+          <a class="menu__links" href="../index.html">¿Quiénes Somos?</a>
+        </li>
+        <li class="menu__items">
+          <a class="menu__links" href="#plans">Planes</a>
+        </li>
+
+        <li class="menu__items">
+          <a class="menu__links" href="#contact">Contacto</a>
+        </li>
+      </ul>
+      <!-- Inicio de menu de página -->
+      <ul class="navbar__user">
+        <div class="navbar__guest__container">
+          <i class="fas fa-user-alt"></i>
+
+          <p class="guest__p">
+            Hola <span class="guest__p-modifier">invitado/a</span>
+          </p>
+          <p class="guest__username">@guest2778</p>
+        </div>
+
+        <li class="user__menu__items">
+          <a class="user__menu__links" href="#">
+            <i class="fas fa-sign-in-alt"></i>
+            <span class="user__log__text">Iniciar sesión</span>
+          </a>
+        </li>
+
+        <li class="user__menu__items">
+          <a class="user__menu__links-alt" href="#">
+            <i class="fas fa-key"></i>
+            <span class="user__log__text"> Registrarse</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="user__hero">
+      <section class="contact" id="contact">
+        <form action="" class="contact__form">
+          <h2 class="contact__title">Registrate</h2>
+          <input
+            type="text"
+            class="contact__input"
+            placeholder="Ingresá tu nombre..."
+          />
+          <input
+            type="email"
+            class="contact__input"
+            placeholder="Ingresá tu email..."
+          />
+          <input
+            type="password"
+            class="contact__input"
+            placeholder="Ingresá tu contraseña..."
+          />
+          <input
+            type="password"
+            class="contact__input"
+            placeholder="Repetí tu contraseña..."
+          />
+          <div class="form__terms">
+            <input type="checkbox" name="terminos" id="terms" />
+            <p class="form__text">
+              He leído y acepto los Términos y Condiciones
+            </p>
+          </div>
+
+          <a href="#" class="submit__link">
+            <button class="btn__submit">Registrarse</button></a
+          >
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
