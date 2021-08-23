@@ -32,22 +32,25 @@
   <body>
     <div class="main-container">
       <!-- Inicio Header(Nav y Hero) -->
-      <header class="header flex-column">
+      <header class="header " id="home">
         <!-- Filler, para que tome el lugar del nav cuando scrolleo -->
         <div class="filler"></div>
         <!-- Inicio Navbar -->
-        <nav class="navbar flex-between">
+        <nav class="navbar ">
           <!-- Checkbox y menu barras -->
           <input type="checkbox" name="bars" id="navbar__checkbox" />
           <label class="navbar__bars" for="navbar__checkbox"
             ><i class="fas fa-bars"></i><i class="fas fa-times"></i
           ></label>
           <!-- Logo -->
-          <img
+          <a class="logo__container" href="#home">
+            <img
             class="navbar__logo"
             src="./assets/img/medifam-logo-small.png"
             alt="Medifam Obra Social"
           />
+          </a>
+
           <!-- Icono de user -->
           <input type="checkbox" name="user" id="user__checkbox" />
           <label class="navbar__bars" for="user__checkbox"
@@ -55,7 +58,7 @@
           </label>
 
           <!-- Inicio de menu de página -->
-          <ul class="navbar__menu flex-column">
+          <ul class="navbar__menu ">
             <li class="menu__items">
               <a class="menu__links" href="#about__us">¿Quiénes Somos?</a>
             </li>
@@ -71,9 +74,9 @@
 
           </ul>
            <!-- Inicio de menu de página -->
-           <ul class="navbar__user flex-column">
+           <ul class="navbar__user">
             
-              <div class="navbar__guest__container flex-column">
+              <div class="navbar__guest__container ">
 
                   <i class="fas fa-user-alt"></i>
    
@@ -81,42 +84,42 @@
                 <p class="guest__username">@guest2778 </p>
               </div>
             
-            <li class="user__menu__items flex-center ">
-              <a class="menu__links flex-center " href="#"> <i class="fas fa-sign-in-alt"></i>  <span class="user__log__text">Iniciar sesión</span>  </a>
+            <li class="user__menu__items">
+              <a class="user__menu__links   " href="#"> <i class="fas fa-sign-in-alt"></i>  <span class="user__log__text">Iniciar sesión</span>  </a>
             </li>
 
-            <li class="user__menu__items flex-center ">
-              <a class="menu__links flex-center " href="#"> <i class="fas fa-key"></i> <span class="user__log__text">  Registrarse</span>  </a>
+            <li class="user__menu__items">
+              <a class="user__menu__links-alt" href="#"> <i class="fas fa-key"></i> <span class="user__log__text">  Registrarse</span>  </a>
             </li>
             <!--   -->
           </ul>
         </nav>
 
-        <div class="hero flex-column  ">
+        <div class="hero   ">
           <div class="hero__img"></div>
-          <div class="hero-slogan__container flex-column">
+          <div class="hero-slogan__container ">
             <p class="hero__slogan-up">Tu salud.</p>
             <p class="hero__slogan-down">Nuestra prioridad.</p>
             <div class="button__container">
-              <a class="link flex-center" href="#plans">
+              <a class="link r" href="#plans">
                 <button class="btn btn-primary">Encontrá tu plan ideal</button>
               </a>
-              <a class="link flex-center" href="#about__us"
+              <a class="link" href="#about__us"
                 ><button class="btn btn-secondary">Conocenos</button></a
               >
             </div>
           </div>
         </div>
       </header>
-      <main class=" main flex-column flex-center">
-        <section class="about__us flex-column flex-center" id="about__us" >
-          <div class="about__us-description flex-column flex-center">
+      <main class="main">
+        <section class="about__us  " id="about__us" >
+          <div class="about__us-description  ">
             <h1 class="description__title" >Somos Medifam</h1>
             <p class="description__content">Medicina prepaga de excelencia</p>
           </div>
-          <div class="services__container flex-column flex-center">
-            <div class="services__card flex-column flex-center">
-              <div class="services__circle flex-center">
+          <div class="services__container  ">
+            <div class="services__card  ">
+              <div class="services__circle ">
                 <i class="fas fa-ambulance"></i>
               </div>
               <p class="services__description">Emergencias 24 hs.</p>
@@ -124,22 +127,22 @@
             </div>
 
            
-          <div class="services__card flex-column flex-center">
-            <div class="services__circle flex-center">
+          <div class="services__card  ">
+            <div class="services__circle ">
               <i class="fas fa-briefcase-medical"></i>
             </div>
             <p class="services__description">Atención domiciliaria</p>
             <span class="services__underscore"></span>
           </div>
-          <div class="services__card flex-column flex-center">
-            <div class="services__circle flex-center">
+          <div class="services__card  ">
+            <div class="services__circle ">
               <i class="fas fa-stethoscope"></i>
             </div>
             <p class="services__description">Prestadores de excelencia</p>
             <span class="services__underscore"></span>
           </div>
-          <div class="services__card flex-column flex-center">
-            <div class="services__circle flex-center">
+          <div class="services__card  ">
+            <div class="services__circle ">
               <i class="fas fa-notes-medical"></i>
             </div>
             <p class="services__description">Planes Superadores</p>
@@ -149,16 +152,16 @@
 
 
 
-        <section class="plans flex-center flex-column" id="plans">
+        <section class="plans  " id="plans">
             <h2 class="plans__title">Nuestros <span class="plans__title-modifier">planes</span>
             </h2>
             
             
-            <div class="plans__card flex-center flex-column">
+            <div class="plans__card ">
             
               <img class="plans__img" src="./assets/img/family-plan1.jpg" alt="">
               
-              <div class="plans__description flex-column">
+              <div class="plans__description ">
                 <h3 class="plans__card__title">Plan familiar <span class="plans__card__title-modifier">Premium</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
@@ -166,11 +169,11 @@
                 </div>  
               </div>
             </div>
-            <div class="plans__card flex-center flex-column">
+            <div class="plans__card ">
               
               <img class="plans__img" src="./assets/img/family-plan2.jpg" alt="">
               
-              <div class="plans__description flex-column">
+              <div class="plans__description ">
                 <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Familiar</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
@@ -178,11 +181,11 @@
                 </div> 
               </div>
             </div>
-            <div class="plans__card flex-center flex-column">
+            <div class="plans__card">
               
               <img class="plans__img" src="./assets/img/couple-plan.jpg" alt="">
               
-              <div class="plans__description flex-column">
+              <div class="plans__description">
                 <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Pareja</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
@@ -190,11 +193,11 @@
                 </div>
               </div>
             </div>
-            <div class="plans__card flex-center flex-column">
+            <div class="plans__card">
               
               <img class="plans__img" src="./assets/img/individual-plan1.jpg" alt="">
               
-              <div class="plans__description flex-column">
+              <div class="plans__description">
                 <h3 class="plans__card__title">Plan <span class="plans__card__title-modifier">Individual</span></h3>
                 <div class="plans__underscore"></div>
                 <div class="plans__content">
@@ -203,8 +206,9 @@
               </div>
             </div>
           </section>
-          <section class="contact flex-column " id="contact">
-            <form action="" class="contact__form flex-column flex-around">
+
+          <section class="contact " id="contact">
+            <form action="" class="contact__form ">
               <h2 class="contact__title">Contactanos</h2>
               <input type="text" class="contact__input" placeholder="Ingresá tu nombre...">
               <input type="email" class="contact__input" placeholder="Ingresá tu email...">
@@ -215,15 +219,16 @@
                 </button></a>
             </form>
           </section>
-          <footer class="footer flex-column">
-            <div class="footer__info flex-column">
+
+          <footer class="footer">
+            <div class="footer__info ">
                 <p>Superintendencia de Servicios de Salud</p>
                 <p>Organo Control de Obras Sociales y entidades de Medicina Prepaga</p>
                 <p>0800-222-SALUD(72583) | www.sssalud.gob.ar  </p>
                 <p>RNEMP Nº 1332</p>
               </div>
-            <div class="footer__social__container flex-column flex-center">
-              <div class="footer__media flex-around">
+            <div class="footer__social__container">
+              <div class="footer__media ">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-whatsapp"></i>
