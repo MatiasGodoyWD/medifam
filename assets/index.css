@@ -161,12 +161,14 @@ i {
   top: 0;
   left: 0;
   transform: translateX(-200%);
+  z-index: -99;
 }
 
 .navbar__user {
   top: 0;
   right: 0;
   transform: translateX(200%);
+  z-index: -99;
 }
 
 .navbar__guest__container {
@@ -332,6 +334,7 @@ i {
   -webkit-box-shadow: -2.5px -19px 3px 5px var(--primary-white);
   -moz-box-shadow: -2.5px -19px 3px 5px var(--primary-white);
   box-shadow: -1px -19px 3px 5px var(--primary-white);
+  z-index: -99;
 
   /* margin-top: -3rem; */
   /* padding-top: 1rem; */
