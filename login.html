@@ -27,7 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>Registrate</title>
+    <title>Inicio De Sesión</title>
   </head>
   <body>
     <div class="filler"></div>
@@ -38,7 +38,7 @@
         ><i class="fas fa-bars"></i><i class="fas fa-times"></i
       ></label>
       <!-- Logo -->
-      <a class="logo__container" href="./index.html#home">
+      <a class="logo__container" href="./login.html">
         <img
           class="navbar__logo"
           src="./assets/img/medifam-logo-small.png"
@@ -88,7 +88,7 @@
         <li class="user__menu__items">
           <a class="user__menu__links-alt" href="./register.html">
             <i class="fas fa-key"></i>
-            <span class="user__log__text"> Registrarse</span>
+            <span class="user__log__text"> Registrate</span>
           </a>
         </li>
       </ul>
@@ -96,16 +96,12 @@
     <div class="user__hero">
       <div class="login__container">
         <div class="login__img__container">
-          <img class="login__img" src="./assets/img/couple-plan.jpg" alt="" />
+          <img class="login__img" src="./assets/img/contact-img.jpg" alt="" />
         </div>
         <section class="form sign-up" id="contact">
           <form action="" class="login__form">
-            <h2 class="contact__title">Registrate</h2>
-            <input
-              type="text"
-              class="contact__input"
-              placeholder="Ingresá tu nombre..."
-            />
+            <h2 class="contact__title">Ingresar</h2>
+
             <input
               type="email"
               class="contact__input"
@@ -116,20 +112,14 @@
               class="contact__input"
               placeholder="Ingresá tu contraseña..."
             />
-            <input
-              type="password"
-              class="contact__input"
-              placeholder="Repetí tu contraseña..."
-            />
-            <div class="form__terms">
-              <input type="checkbox" name="terminos" id="terms" />
-              <p class="form__text">
-                He leído y acepto los Términos y Condiciones
-              </p>
-            </div>
+
+            <p class="login__text">
+              ¿Todavia no tenes cuenta?
+              <a href="register.html" class="register__span">Registrate</a>
+            </p>
 
             <a href="#" class="submit__link">
-              <button class="btn__submit">Registrarse</button></a
+              <button class="btn__submit">Iniciar Sesión</button></a
             >
           </form>
         </section>

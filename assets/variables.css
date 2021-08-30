@@ -14,6 +14,6 @@
   --primary-font: "Titillium Web", sans-serif;
   --secondary-font: "Arimo", sans-serif;
   --tertiary-font: "Roboto", sans-serif;
-  --button-transitions-in: 0.2s all ease-in;
-  --button-transitions-out: 0.2s all ease-out;
+  --button-transitions-in: 0.3s all ease-in;
+  --button-transitions-out: 0.3s all ease-out;
 }
