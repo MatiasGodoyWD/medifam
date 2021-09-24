@@ -1,6 +1,6 @@
 ## Detalles del proyecto
 
-    Proyecto realizado como practica final para el curso de desarrollo web fullstack de Nucba.
+    Proyecto realizado como practica final para el modulo de maquetado del curso de desarrollo web fullstack de Nucba.
 
 ### Tecnologias utilizadas
 
